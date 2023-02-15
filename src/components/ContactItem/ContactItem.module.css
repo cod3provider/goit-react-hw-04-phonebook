@@ -1,0 +1,27 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.button {
+  margin-left: 10px;
+  padding: 3px 15px;
+
+  border: 1px solid #648f48;
+  border-radius: 5px;
+  outline: none;
+
+  font-size: 16px;
+
+  cursor: pointer;
+
+  transition: background 350ms linear;
+}
+
+.button:hover,
+.button:focus {
+  background: #d28787;
+}
