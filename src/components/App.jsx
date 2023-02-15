@@ -5,7 +5,7 @@ import ContactForm from './ContactForm/ContactForm';
 import ContactList from './ContactList/ContactList';
 import ContactFilter from './ContactFilter/ContactFilter';
 
-import useLocal from '../hooks/useLocal/useLocal';
+import useLocalStorage from '../hooks/useLocalStorage/useLocalStorage';
 
 const App = () => {
   const [contacts, setContacts] = useLocal('my-contacts', [
